@@ -32,8 +32,12 @@ function isPalindrome(word) {
 
 console.log(isPalindrome("racecar"))
 
+// Function 5: calculateDiscountPrice
+function calculateDiscountedPrice(originalPrice, discountPercentage) {
+    return originalPrice - (originalPrice * (discountPercentage /100))
+}
 
-
+console.log(calculateDiscountedPrice(100,20))
 
 
 
