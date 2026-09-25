@@ -4,7 +4,6 @@ function calculateTax(amount) {
 }
 
 calculateTax(5000)
-
 console.log(calculateTax(5000))
 
 // Function 2: convertToUpperCase
@@ -13,6 +12,17 @@ function convertToUpperCase(text) {
 }
 convertToUpperCase("steve")
 console.log(convertToUpperCase("steve"))
+
+// Function 3: findMaximum
+function findMaximum(num1, num2) {
+    if (num1 > num2) {
+        return num1;
+    } else {
+        return num2;
+    }
+}
+findMaximum(1, 7)
+console.log(findMaximum(1,7))
 
 
 
