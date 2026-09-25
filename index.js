@@ -21,8 +21,21 @@ function findMaximum(num1, num2) {
         return num2;
     }
 }
+
 findMaximum(1, 7)
 console.log(findMaximum(1,7))
+
+// Function 4: isPalidrome
+function isPalindrome(word) {
+   return word === word.split('').reverse().join('');
+}
+
+console.log(isPalindrome("racecar"))
+
+
+
+
+
 
 
 
